@@ -16,11 +16,13 @@ numbers_in_order = sorted(numbers)
 
 print(numbers_in_order)
 
+# I tu Python poda, że listy nie są takie same ponieważ mimo posiadania tych samych liczb są one w innej kolejności
 if numbers == numbers_in_order:
     print("The lists are equal")
 else:
     print("The lists are not equal")
 
+# A tu poda że listy są takie same ponieważ już number jest posortowany
 if numbers_in_order == sorted(numbers):
     print("The lists are equal")
 else:
