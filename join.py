@@ -25,5 +25,6 @@ while True:
     print()
     if direction in exits[loc]:
         loc = exits[loc][direction]
+        print(loc) #to ja dodałem żeby skumać o co chodzi
     else:
         print("You cannot go in that direction")
