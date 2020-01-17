@@ -12,7 +12,10 @@ fruit = {"orange": "a sweet, orange, citrus fruit",
 # print(fruit)
 # fruit["lime"] = "great with tequila"
 # print(fruit)
+
+#usuwanie pozycji w słowniku
 # # del fruit["lemon"]
+
 # # fruit.clear()
 # # print(fruit)
 # print(fruit["tomato"])
