@@ -21,14 +21,14 @@
 # empty_set.add("a")
 # # empty_set_2.add("a")
 #
-# even = set(range(0, 40, 2))
-# print(even)
-# squares_tuple = (4, 6, 9, 16, 25)
-# squares = set(squares_tuple)
-# print(squares)
-# even = set(range(0, 40, 2))
-# print(even)
-# print(len(even))
+even = set(range(0, 40, 2))
+print(even)
+squares_tuple = (4, 6, 9, 16, 25)
+squares = set(squares_tuple)
+print(squares)
+even = set(range(0, 40, 2))
+print(even)
+print(len(even))
 #
 # squares_tuple = (4, 6, 9, 16, 25)
 # squares = set(squares_tuple)
@@ -47,19 +47,19 @@
 # print(squares.intersection(even))
 # print(squares & even)
 
-even = set(range(0, 40, 2))
-print(sorted(even))
-squares_tuple = (4, 6, 9, 16, 25)
-squares = set(squares_tuple)
-print(sorted(squares))
-
-print("even minus squares")
-print(sorted(even.difference(squares)))
-print(sorted(even - squares))
-
-print("squares minus even")
-print(squares.difference(even))
-print(squares - even)
+#even = set(range(0, 40, 2))
+#print(sorted(even))
+#squares_tuple = (4, 6, 9, 16, 25)
+# squares = set(squares_tuple)
+# print(sorted(squares))
+#
+# print("even minus squares")
+# print(sorted(even.difference(squares)))
+# print(sorted(even - squares))
+#
+# print("squares minus even")
+# print(squares.difference(even))
+# print(squares - even)
 
 
 
